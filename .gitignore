@@ -32,3 +32,23 @@ tests/_support/_generated
 #vagrant folder
 /.vagrant
 
+# Основное для Yii2
+/vendor/
+/runtime/*
+/web/assets/*
+/web/index-test.php
+/composer.lock
+
+# Системные файлы
+.DS_Store
+.idea/
+Thumbs.db
+
+# Конфиги с данными
+/config/db.php
+/.env
+*.env
+
+# Логи и кэш
+/*.log
+/cache/*
