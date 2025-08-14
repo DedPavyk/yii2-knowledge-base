@@ -32,12 +32,3 @@ tests/_support/_generated
 #vagrant folder
 /.vagrant
 
-# Игнорировать базовые файлы Yii2
-/vendor/
-/runtime/
-/web/assets/
-/.env
-/composer.lock
-
-# Ваши кастомные исключения (если нужно)
-/config/db.php

@@ -128,6 +128,6 @@ class SiteController extends Controller
     
     public function actionError()
     {
-        return 'Error'; // Простой обработчик ошибок
+        return 'Error';
     }
 }

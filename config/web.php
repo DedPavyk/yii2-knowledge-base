@@ -13,19 +13,19 @@ $config = [
     ],
     'components' => [
         'request' => [
-            'class' => 'yii\web\Request', // Обязательно
+            'class' => 'yii\web\Request', 
             'cookieValidationKey' => 'T6M7tzbh0JlByFZPtN-Ul49wZod_r2pr',
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
         'user' => [
-            'class' => 'yii\web\User', // Обязательно
+            'class' => 'yii\web\User', 
             'identityClass' => 'app\models\User',
             'enableAutoLogin' => true,
         ],
         'errorHandler' => [
-            'class' => 'yii\web\ErrorHandler', // Обязательно
+            'class' => 'yii\web\ErrorHandler', 
             'errorAction' => 'site/error',
         ],
         'mailer' => [
@@ -34,7 +34,7 @@ $config = [
             'useFileTransport' => true,
         ],
         'log' => [
-            'class' => 'yii\log\Dispatcher', // Обязательно для Yii 2.0.53
+            'class' => 'yii\log\Dispatcher', 
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
                 [
